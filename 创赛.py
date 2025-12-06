@@ -321,7 +321,7 @@ def page_3():
     st.title("飞花令游戏")
     st.image("img3.gif")
     
-    st.write(":smile:我可是很强的，快来给我出题吧~")
+    st.write("我可是很强的，快来给我出题吧~")
     word = st.text_input('请输入要飞花的字（只能输入一个字）')
     if(len(word)>1):
         st.write("不可以问多个字哦！")
@@ -361,7 +361,7 @@ def page_4():
         st.write(f"<span style='font-size:30px; color:blue'>{ans}</span>",unsafe_allow_html=True)
     with t3:
         st.write("输入必须只包含+ - * 和括号，暂时不支持除法。可以输入负数，但输入时需要用括号包裹。")
-        exp = st.text_input("输入第一个表达式")
+        exp = st.text_input("输入一个表达式")
         if(st.button("计算")):
             try:
                 if('/' in exp):
