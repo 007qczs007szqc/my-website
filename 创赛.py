@@ -180,6 +180,8 @@ def page_1():
         st.write("不仅可以进行不同计算，还能计算进制转换和计算表达式！")
         st.write("<span style='font-size:20px; color:Blue'>:heart_eyes: MarkLatex编辑器：", unsafe_allow_html=True)
         st.write("本编辑器结合了Markdown和Latex的效果，输入后点一下旁边空白处，下方会出现Markdown+Latex对应的内容。")
+        st.write("<span style='font-size:20px; color:Blue'>:heart_eyes: 排序小介绍：", unsafe_allow_html=True)
+        st.write("使用表格形式帮助你更好了解各种排序算法！")
     with t2:
         st.write("<span style='font-size:30px; color:blue'> 飞花令小游戏", unsafe_allow_html=True)
         a1,a2,a3 = False, False, False
