@@ -181,7 +181,7 @@ def page_1():
         st.write("<span style='font-size:20px; color:Blue'>:heart_eyes: MarkLatex编辑器：", unsafe_allow_html=True)
         st.write("本编辑器结合了Markdown和Latex的效果，输入后点一下旁边空白处，下方会出现Markdown+Latex对应的内容。")
     with t2:
-        st.write("<span style='font-size:30px; color:blue'>:sunglasses:飞花令小游戏", unsafe_allow_html=True)
+        st.write("<span style='font-size:30px; color:blue'> 飞花令小游戏", unsafe_allow_html=True)
         a1,a2,a3 = False, False, False
         q1,q2,q3 = False, False, False
         st.image("img3.gif")
